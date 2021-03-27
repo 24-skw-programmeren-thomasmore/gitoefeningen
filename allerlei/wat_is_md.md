@@ -1,4 +1,4 @@
-#Wat is md? 
+# Wat is md? 
 * MD = Markdown
 * geformatteerde tekt maken in een plain-text-editor
   * met behulp van leesbare letters brengen we een lichte vorm van formattering aan in een text.
@@ -8,12 +8,13 @@
   * in IntelliJ kan je kiezen om de geformatteerde file te zien  
   * in je browser kan je een markdown extension installeren
 * in deze file zie je al een paar **voorbeelden** van markdown  
+* let op: elke interpreter heeft een beetje zijn eigen markdown-dialect. Wat er goed uitziet in IntelliJ ziet er niet altijd goed uit in github :-(  
   
 * noot: het is niet de bedoeling dat je heel veel tijd spendeerd aan de markdown syntax. Het is wel nuttig voor jezelf om hier iets van te weten.  
 * algemeen: https://en.wikipedia.org/wiki/Markdown
 * markdown in github: https://guides.github.com/features/mastering-markdown/ 
 
-##Verder
+## Verder
 * wat is **plain text**? 
   * een text file die alleen leesbare letters bevat
   * die geen  extra niet-leesbare informatie bevat (bvb voor formattering)
