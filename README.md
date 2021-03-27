@@ -10,5 +10,5 @@
 
 ## Verder ook nog   
 * [Wat is md](allerlei/wat_is_md.md)
-* Linux en dos commando's 
+* [Linux en dos commando's](allerlei/linkux_en_dos_commandos.md) 
 * meest gebruikte git commando's 
