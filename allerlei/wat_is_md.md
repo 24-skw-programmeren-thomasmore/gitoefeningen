@@ -2,22 +2,21 @@
 * MD = Markdown
 * geformatteerde tekt maken in een plain-text-editor
   * met behulp van leesbare letters brengen we een lichte vorm van formattering aan in een text.
-  * de text is nog leesbaar op zich 
-  * als je een markdown-interpreter gebruikt dan ziet de text er beter uit
-  * in github zit een markdown-interpreter: je ziet in de github website de md file met formattering
-  * in IntelliJ kan je kiezen om de geformatteerde file te zien  
-  * in je browser kan je een markdown extension installeren
-* in deze file zie je al een paar **voorbeelden** van markdown  
-* let op: elke interpreter heeft een beetje zijn eigen markdown-dialect. Wat er goed uitziet in IntelliJ ziet er niet altijd goed uit in github :-(  
-  
-* noot: het is niet de bedoeling dat je heel veel tijd spendeerd aan de markdown syntax. Het is wel nuttig voor jezelf om hier iets van te weten.  
+  * je kan dat de geformatteerde tekst bekijken met een dedicated programma: een markdown-interpreter  
+    * in github zit een ingebouwde markdown-interpreter: je ziet daar alle .md files met formattering
+    * in IntelliJ kan je kiezen wat je ziet: de plain file / de geformatteerde file / of beide  
+    * in je browser kan je een markdown extension installeren (bvb Markdown Viewer)
+* de plain text is nog leesbaar op zich 
+* in deze file zie je al een paar **voorbeelden van markdown**  
+* let op: elke interpreter heeft een beetje zijn eigen markdown-dialect. Wat er goed uitziet in IntelliJ ziet er niet altijd goed uit in github :-(
+* noot: het is niet de bedoeling dat je heel veel tijd spendeert aan de markdown syntax. Het is wel nuttig voor jezelf om hier iets van te weten.  
 * algemeen: https://en.wikipedia.org/wiki/Markdown
 * markdown in github: https://guides.github.com/features/mastering-markdown/ 
 
 ## Verder
 * wat is **plain text**? 
-  * een text file die alleen leesbare letters bevat
-  * die geen  extra niet-leesbare informatie bevat (bvb voor formattering)
+  * een text file die **alleen leesbare letters** bevat
+  * dus geen extra niet-leesbare informatie bevat (zoals bvb voor formattering)
   * een plain text file kan je openen met een plain-text-editor 
 * wat is een plain-text-editor? 
   * een editor waarmee je alleen plain text kan editeren
