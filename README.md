@@ -16,7 +16,6 @@
     * [Installeer Git](getting_started/02_installeer_git.md)
     * [Git Bash](getting_started/03_git_bash.md)
     * [Wat is een Git Repo?](getting_started/04_wat_is_een_git_repo.md) 
-  
 *
 
 ## Verder ook nog

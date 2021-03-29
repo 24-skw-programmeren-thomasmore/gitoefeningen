@@ -7,3 +7,7 @@ o Zet deze Projects directory zeker niet onder “Documents” of “Downloads�
 “Program Files”.
 * **Tip**: configureer je file explorer zodat je “hidden files” en “file extensions” altijd ziet.
 ![hidden_files_and_extensions.png](images/hidden_files_and_extensions.png)
+  
+## Terminologie
+
+* de **root** van je project = de basis directory van je project  

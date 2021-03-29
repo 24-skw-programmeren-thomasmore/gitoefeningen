@@ -1,6 +1,6 @@
 # Wat is md? 
 * MD = Markdown
-* geformatteerde tekt maken in een plain-text-editor
+* geformatteerde tekt maken in een [plain-text-editor](../allerlei/wat_is_plain_text.md)
   * met behulp van leesbare letters brengen we een lichte vorm van formattering aan in een text.
   * je kan dat de geformatteerde tekst bekijken met een dedicated programma: een markdown-interpreter  
     * in github zit een ingebouwde markdown-interpreter: je ziet daar alle .md files met formattering
@@ -12,19 +12,3 @@
 * noot: het is niet de bedoeling dat je heel veel tijd spendeert aan de markdown syntax. Het is wel nuttig voor jezelf om hier iets van te weten.  
 * algemeen: https://en.wikipedia.org/wiki/Markdown
 * markdown in github: https://guides.github.com/features/mastering-markdown/ 
-
-## Verder
-* wat is **plain text**? 
-  * een text file die **alleen leesbare letters** bevat
-  * dus geen extra niet-leesbare informatie bevat (zoals bvb voor formattering)
-  * een plain text file kan je openen met een plain-text-editor 
-* wat is een plain-text-editor? 
-  * een editor waarmee je alleen plain text kan editeren
-  * bvb notepad, notepad++, vi, vim, emacs
-* Voorbeelden   
-  * plain text: .txt, .csv, .java, .js, .ts, .json, .html, .css, .cs, .py, .c, .xml, .sh, .bash 
-  * een word document (.docx) bevat (veel) extra formatterings data naast de text. Een docx file kan je alleen openen met dedicated programma 
-  * een excel document (.xlsx) bevat extra data naast de tekst die je ziet.
-  * een .exe file is een binary file. Dit is een executable: je computer kan hem uitvoeren. Zelf kan je dit niet lezen.  
-    
-

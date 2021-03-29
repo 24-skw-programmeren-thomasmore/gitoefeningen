@@ -48,4 +48,4 @@
 
 ---
 [prev](../README.md)
-[next](02_installeer_git.md)
+[next](../getting_started/02_installeer_git.md)

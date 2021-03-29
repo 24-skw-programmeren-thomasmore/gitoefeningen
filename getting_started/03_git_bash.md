@@ -17,6 +17,7 @@ directory
   * Dit is een linux‐achtige CLI. De meeste Linux command’s hebben een
     tegenhanger in een gewone cmd‐dox‐box. Een paar nuttige commando’s vind
     je in de appendix achteraan in dit document.
+  * je kan de  git-commando's ook uitvoeren in het Terminal tool-window in IntelliJ of in een dos-cmd-box.    
 * Mac user kunnen gewoon een Term gebruiken ipv Git Bash     
 
 ![git bash](images/git_bash.png)
@@ -25,5 +26,5 @@ directory
 
 
 ---
-[prev](02_installeer_git.md)
-[next](04_wat_is_een_git_repo.md)
+[prev](../getting_started/02_installeer_git.md)
+[next](../getting_started/04_wat_is_een_git_repo.md)
