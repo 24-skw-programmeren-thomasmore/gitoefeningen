@@ -10,6 +10,7 @@
 
 * Getting Started
     * [Wat is Git?](getting_started/wat_is_git.md)
+    * [Installeer Git](getting_started/installeer_git.md)
 *
 
 ## Verder ook nog
