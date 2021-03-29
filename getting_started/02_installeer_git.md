@@ -34,4 +34,4 @@ git config --global user.email <jouw e-mailadres>
 
 ---
 [prev](01_wat_is_git.md)
-[next]()
+[next](03_git_bash.md)
