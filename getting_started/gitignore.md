@@ -40,6 +40,6 @@ Intellij werkt:
 
 
 ---
-[prev]()
-[next]()
+[prev](../README.md)
+[next](../README.md)
 

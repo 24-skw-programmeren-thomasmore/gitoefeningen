@@ -15,5 +15,5 @@
       ![git_remote_intellij.png](images/git_remote_intellij.png)
 
 ---
-[prev]()
-[next]()
+[prev](../README.md)
+[next](../README.md)
