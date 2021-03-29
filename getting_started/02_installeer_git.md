@@ -32,6 +32,6 @@ git config --global user.email <jouw e-mailadres>
 * Als je iets fout gezet hebt:
     ```git config –global -replace-all user.name "<new Name>"```
 
-
-
-
+---
+[prev](01_wat_is_git.md)
+[next]()

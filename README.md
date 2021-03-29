@@ -6,11 +6,14 @@
 * alle info en uitleg zit hierin
 * info en oefeningen is gestructureerd in git-branches
 
+
+[Start](getting_started/01_wat_is_git.md)
+
 ## Inhoud
 
 * Getting Started
-    * [Wat is Git?](getting_started/wat_is_git.md)
-    * [Installeer Git](getting_started/installeer_git.md)
+    * [Wat is Git?](getting_started/01_wat_is_git.md)
+    * [Installeer Git](getting_started/02_installeer_git.md)
 *
 
 ## Verder ook nog

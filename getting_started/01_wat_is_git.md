@@ -44,3 +44,8 @@
   * https://learngitbranching.js.org
   * https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
   * https://www.youtube.com/watch?v=2sjqTHE0zok&feature=youtu.be
+
+
+---
+[prev](../README.md)
+[next](02_installeer_git.md)
