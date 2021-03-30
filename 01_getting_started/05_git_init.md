@@ -64,19 +64,17 @@
 * Note: Ik begin deze oefeningen altijd met ```cd gittest``` om expliciet aan te geven dat
   je dit in de directory gittest moet doen. 
 * Voer nu de volgende commando’s uit in git‐bash:
-```
-cd gittest
-git status
-```
-maak nu een file of pas een bestaande file aan
-```
-git status
-git add testfile.txt
-git status
-git commit -m “add first file”
-git status
-git log
-```
+  ```
+  cd gittest
+  git status
+  <maak nu een file of pas een bestaande file aan>
+  git status
+  git add testfile.txt
+  git status
+  git commit -m “add first file”
+  git status
+  git log
+  ```
 
 * git ziet dat er aanpassingen gebeurd zijn op deze dir: 
     * we hebben een nieuwe file gemaakt
@@ -94,15 +92,11 @@ repository zit.
 ```
     cd gittest
     git status
-```
-verander iets in een file 
-```
+    <verander iets in een file> 
     git status
-```
-verander iets in een andere file
-```
-  git add .
-  git status
+    <verander iets in een andere file>
+    git add .
+    git status
 ```
 * **Noot**:
   * ```git add *``` voegt alle files deze directory toe

@@ -5,13 +5,13 @@ Met het git commando "**git checkout**" kan je rondspringen in je commit history
 Je gaat dan terug naar de status van je working directory zoals die was op het moment van die commit. 
 
 ### In Git Bash: 
-```
-cd gittest
-git status
-git log
-git checkout <commithash>
-git log
-```
+  ```
+  cd gittest
+  git status
+  git log
+  git checkout <commithash>
+  git log
+  ```
 
 * Bekijk de inhoud van je working directory (de files) 
 * In de “git log” zie je alleen de commits tot en met de gekozen commit.
@@ -59,7 +59,8 @@ of the “next commit” is “already taken”).
 
 ![checkout_head_detached.png](images/checkout_head_detached.png)
 
-* Hoe moet je uit een detached head state geraken? Doe een checkout van een branch: bvb van de default branch main (of master);
+## Hoe geraak je uit een detached head state? 
+* Doe een checkout van een branch (dus niet van een commit): bvb van de default branch main (of master)
 ```
 git checkout main
 ```
@@ -69,6 +70,11 @@ git checkout main
 ![checkout_head_na_commit.png](images/checkout_head_na_commit.png)
 
 
+* Check altijd welke branch actief is  
+  * Git Bash: gebruik "git status" 
+  * IntelliJ: rechts onderaan in de marge  
+
+
 ---
 [prev](01_history.md)
-[next]()
+[next](03_undo_changes.md)

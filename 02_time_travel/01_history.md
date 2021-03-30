@@ -18,26 +18,22 @@
   * git diff \<commithash> \<commithash>
     * changes tussen 2 commits
 * probeer dit uit:     
-```
-cd gittest
-git status
-git log
-git diff <commithash>
-git status
-```
-modify the file
-```
-git status
-git diff
-git add .
-git status
-git diff
-```
-modify the file
-```
-git status
-git diff    
-```
+  ```
+  cd gittest
+  git status
+  git log
+  git diff <commithash>
+  git status
+  <pas een file aan>
+  git status
+  git diff
+  git add .
+  git status
+  git diff
+  <pas opnieuw een file aan>
+  git status
+  git diff    
+  ```
 
 * Noot: na een aantal commits wordt de log lang. Heel lang.
   * Als de log langer is dan je bash‐window zal hetg stoppen en zie je een :
