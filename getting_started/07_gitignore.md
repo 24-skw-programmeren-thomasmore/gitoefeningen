@@ -22,7 +22,9 @@ committen.
 * Example gitignore files: https://github.com/github/gitignore
 * Bvb een typische .gitignore file voor een java project voor een developer die met Jetbrains
 Intellij werkt:
-    ```.idea
+    ```
+    .idea
+    *.iml 
     *.class
     *.log
     *.jar
@@ -40,6 +42,6 @@ Intellij werkt:
 
 
 ---
-[prev](../README.md)
+[prev](../getting_started/06_git_init_met_intellij.md)
 [next](../README.md)
 

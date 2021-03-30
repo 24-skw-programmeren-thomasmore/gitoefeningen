@@ -17,6 +17,7 @@
     * [Git Bash](getting_started/03_git_bash.md)
     * [Wat is een Git Repo?](getting_started/04_wat_is_een_git_repo.md)
     * [Je eerste git repository](getting_started/05_git_init.md)
+    * [Je eerste git repository met IntelliJ](getting_started/06_git_init_met_intellij.md)
 *
 
 ## Verder ook nog

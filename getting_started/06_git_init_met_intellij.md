@@ -36,7 +36,7 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
 |---| 
 
 ## .gitignore file 
-* Als je met intelliJ werkt moet je asap een [.gitignore](../getting_started/gitignore.md) file toevoegen aan je project.
+* Als je met intelliJ werkt moet je asap een [.gitignore](07_gitignore.md) file toevoegen aan je project.
 * Maak in de root van je project een nieuwe file met naam .gitignore. 
 * Git komt vragen of je deze file wil toevoegen in git, dat is OK. 
 * Open deze file en voeg deze 2 lijnen toe:
@@ -82,9 +82,13 @@ repository zit.
 
 ![git_init_3_states.png](images/git_init_3_states.png)
 
+Als je dit in IntelliJ doet is het verschil tussen modified en staged niet duidelijk.  
+
 ## De Git workflow 
 
 ![git_init_workflow.png](images/git_init_workflow.png)
+
+Als je dit in IntelliJ doet is het verschil tussen modified en staged niet duidelijk.
 
 ## Oefening 
 * Check telkens voor‐en‐na de situatie in het “git commit window” en in het “git log window”.
@@ -94,6 +98,6 @@ repository zit.
 
 ---
 [prev](../getting_started/04_wat_is_een_git_repo.md)
-[next](../README.md)
+[next](../getting_started/07_gitignore.md)
 
 

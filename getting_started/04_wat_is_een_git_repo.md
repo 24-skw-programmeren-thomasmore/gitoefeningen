@@ -5,7 +5,7 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 * de files zijn gestructureerd in **directories** (folders)
 * je kan een file openklikken om de content te zien   
 * in Github wordt de file **[README.md](../README.md)** getoond als info voor deze repo
-* in de **[.gitignore](../getting_started/gitignore.md)** file staat welke files en directories nooit aan deze repo mogen toegevoegd worden  
+* in de **[.gitignore](07_gitignore.md)** file staat welke files en directories nooit aan deze repo mogen toegevoegd worden  
 * in Github  kan je gemakkelijk **zoeken** in alle files van een repo (Search of jump to...)
   
 ### history
