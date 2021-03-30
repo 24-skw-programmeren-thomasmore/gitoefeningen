@@ -30,6 +30,8 @@
 * Je wil terug naar de situatie van de laatste commit.
 
 ### In Git Bash
+* gebruik het commando "**git reset HEAD**"
+
 ```
     cd gittest
     git status
@@ -50,10 +52,30 @@
 
 ## Undo last commit
 
+* Dus: je hebt een aanpassing gedaan en deze gecommit
+* Je wil terug naar de situatie van de **vorige commit**.
+
 ### In Git Bash
+* gebruik het commando "**git reset HEAD~**"
+```
+    cd gittest
+    git status
+    <pas file aan>
+    git status
+    git add <file>
+    git commit -m “<zet hier de commit message>”
+    git status
+    git log
+    <we willen nu de gecommitte aanpassingen rollbacken:> 
+    git reset HEAD~
+    git log
+    git status
+```
 
 ### In IntelliJ
-
+* Ga naar de history (de "Log" tab in het Git Tool window onderaan)
+* selecteer de vorige commit 
+* rechts-klik en kies "Reset Current Branch to here..."
 
 ---
 [prev](02_go_back_in_time.md)
