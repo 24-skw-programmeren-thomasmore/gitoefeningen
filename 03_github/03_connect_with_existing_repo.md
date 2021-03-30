@@ -66,4 +66,4 @@ computer gecopieerd. Check de inhoud van je lokale repository.
 
 ---
 [prev](02_github_account.md)
-[next]()
+[next](04_connect_existing_local_repo.md)

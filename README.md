@@ -25,7 +25,8 @@
 * Github 
   * [Wat is Github?](03_github/01_wat_is_github.md)
   * [Github Account](03_github/02_github_account.md)
-  * [Connect with existing repo](03_github/03_connect_with_existing_repo.md)
+  * [Connecteer met bestaande repo op Github](03_github/03_connect_with_existing_repo.md)
+  * [Bestaand locaal project op Github zetten](03_github/04_connect_existing_local_repo.md)
 * Branches 
 
 
