@@ -8,10 +8,17 @@
     
 
 ## in Git Bash: 
+* Noot: de eerste keer dat je push doet voor een (branch in een) remote repo moet je extra parameters meegeven: 
+```
+git push -u origin main 
+```
+* Noot: main is de default branch in mijn project - gebruik hier master als dat jouw default branch is
+* Je ziet nu je files op je remote repo op Github
+* de volgende keer moet je de extra argumenten niet meer meegeven 
 ```
 git push
 ```
-* Je ziet nu je files op je remote repo op Github 
+
 
 ## in IntelliJ:
 * gebruik het push symbool in de toolbar: 
