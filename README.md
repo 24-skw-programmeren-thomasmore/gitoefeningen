@@ -20,8 +20,12 @@
   * [Je eerste git repository met IntelliJ](01_getting_started/06_git_init_met_intellij.md)
 * Time Travel 
   * [History](02_time_travel/01_history.md)
+  * [Go back in time](02_time_travel/02_go_back_in_time.md)
+  * [Undo changes](02_time_travel/03_undo_changes.md)
 * Github 
-  * [Wat is Github?](03_github/wat_is_github.md)
+  * [Wat is Github?](03_github/01_wat_is_github.md)
+  * [Github Account](03_github/02_github_account.md)
+  * [Connect with existing repo](03_github/03_connect_with_existing_repo.md)
 * Branches 
 
 
@@ -32,3 +36,4 @@
 * [meest gebruikte git commando's](999_allerlei/git_commandos.md)
 * [tools](999_allerlei/tools.md)
 * [tips](999_allerlei/tips.md)
+* [Best Practices](999_allerlei/best_practices.md)
