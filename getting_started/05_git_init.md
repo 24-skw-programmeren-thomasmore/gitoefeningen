@@ -1,5 +1,6 @@
 # Git Init: Je eerste git repository
 
+
 ## Maak een lokale directory (folder) 
 * Waar maak je deze directory? Zie [tips](../allerlei/tips.md)
 * Maak een nieuwe directory (folder)
@@ -32,19 +33,19 @@
  git status
  ``` 
 
-
+* Noot: je kan hetzelfde ook doen met [IntelliJ](../getting_started/06_git_init_met_intellij.md)
 * We zorgen er nu voor dat we git kunnen gebruiken in deze directory.
 * met andere woorden: we maken van onze directory een **git repository** 
-* het git commando "git status" zegt je wat de status is van de repository
+* het git commando "**git status**" zegt je wat de status is van de repository
 
 ![git_init.png](images/git_init.png)
 
-* Je ziet: “On branch main”: in het eerste deel van deze bundel werken we met 1 branch
+* Je ziet: “**On branch main**”: in het eerste deel van deze bundel werken we met 1 branch
 (main). Hierover later meer.
 * noot: in sommige versies van git is de default branch master ipv main
 * Je ziet: “No commits yet”: dit betekent dat we nog geen commits gedaan hebben.
 * We noemen je directory de “**working directory**”.
-* Een **commit** is een **snapshot** van de working directory.
+* Een **commit** is een **snapshot** van de working directory: daar zit alle info in waarmee je terug kan gaan naar de situatie op het moment van de commit. 
 
 | je hebt nu een lokale repository | 
 |---| 
@@ -53,8 +54,8 @@
 
 * Er zit nog niets in je repository. Geen files. Geen history.
 * files in je working directory zijn ofwel:
-  * **tracked**  wel gekend door git
-  * **untracked**  niet gekend door git
+  * **tracked**: wel gekend door git
+  * **untracked**: niet gekend door git
 * Maak een nieuwe file in je dir gittest. Dit is dus een untracked file.
 * **Note**: Hoe maak je een nieuwe file?
   * Doe dit gewoon in je file explorer (new text file)
@@ -77,9 +78,14 @@ git status
 git log
 ```
 
-* Het “**git add**” commando maakt van deze file een tracked file.
-* We zeggen ook dat je een “stage” doet.
-* Het "**git commit**" voegt deze change toe aan de history van deze repo    
+* git ziet dat er aanpassingen gebeurd zijn op deze dir: 
+    * we hebben een nieuwe file gemaakt
+    * maar deze nieuwe file is nog niet gekend in git (untracked file)
+* Het “**git add**” commando zet de aanpassingen klaar om te committen
+  * in dit geval betekent dat: maak van deze file een tracked file - dus een file die gekend is in git.
+* terminologie: "git add" =  een “**stage**” 
+* Het "**git commit**" commando voegt deze aanpassing toe aan de history van deze repo. 
+* Het is belangrijk dat je een commit message meegeeft (met de optie -m).     
 * Het “**git log**” zie je al je commits: Je ziet dat er nu 1 commit (snapshot) in de
 repository zit.
 * De “**commithash**” is een unieke id voor de commit van 40 characters lang
@@ -98,9 +104,9 @@ verander iets in een andere file
   git add .
   git status
 ```
-* **Note**:
-  * git add * adds alle files in deze directory
-  * git add . adds alle files in deze repository (ook in subdirectories)  
+* **Noot**:
+  * ```git add *``` voegt alle files deze directory toe
+  * ```git add .``` voegt alle files in deze repository toe (ook in subdirectories)  
 
 ## Three States 
 
@@ -118,6 +124,6 @@ verander iets in een andere file
 
 ---
 [prev](../getting_started/04_wat_is_een_git_repo.md)
-[next](../README.md)
+[next](../getting_started/06_git_init_met_intellij.md)
 
 
