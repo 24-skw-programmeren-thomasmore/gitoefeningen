@@ -26,5 +26,5 @@ directory
 
 
 ---
-[prev](../getting_started/02_installeer_git.md)
-[next](../getting_started/04_wat_is_een_git_repo.md)
+[prev](/02_installeer_git.md)
+[next](/04_wat_is_een_git_repo.md)

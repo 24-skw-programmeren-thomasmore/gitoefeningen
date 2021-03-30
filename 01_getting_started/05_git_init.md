@@ -2,7 +2,7 @@
 
 
 ## Maak een lokale directory (folder) 
-* Waar maak je deze directory? Zie [tips](../allerlei/tips.md)
+* Waar maak je deze directory? Zie [tips](../999_allerlei/tips.md)
 * Maak een nieuwe directory (folder)
   * bvb in de file-explorer 
   * je kan dit ook in Git Bash: start op de parent directory, dus de directory waarin je de nieuwe dir wil maken. 
@@ -10,7 +10,7 @@
 
 ![git_init_mkdir.png](images/git_init_mkdir.png)
 
-* zie ook [linux en dos commando's](../allerlei/linux_en_dos_commandos.md)
+* zie ook [linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md)
 * **pwd** = print working directory = huidige dir 
 * **mkdir** = make new directory   
 * **cd** = change directory (ga naar deze dir) 
@@ -33,7 +33,7 @@
  git status
  ``` 
 
-* Noot: je kan hetzelfde ook doen met [IntelliJ](../getting_started/06_git_init_met_intellij.md)
+* Noot: je kan hetzelfde ook doen met [IntelliJ](/06_git_init_met_intellij.md)
 * We zorgen er nu voor dat we git kunnen gebruiken in deze directory.
 * met andere woorden: we maken van onze directory een **git repository** 
 * het git commando "**git status**" zegt je wat de status is van de repository
@@ -123,7 +123,7 @@ verander iets in een andere file
 * Maak een aanpassing in de tweede file en commit
 
 ---
-[prev](../getting_started/04_wat_is_een_git_repo.md)
-[next](../getting_started/06_git_init_met_intellij.md)
+[prev](/04_wat_is_een_git_repo.md)
+[next](/06_git_init_met_intellij.md)
 
 

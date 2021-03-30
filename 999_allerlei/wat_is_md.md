@@ -1,6 +1,6 @@
 # Wat is md? 
 * MD = Markdown
-* geformatteerde tekt maken in een [plain-text-editor](../allerlei/wat_is_plain_text.md)
+* geformatteerde tekt maken in een [plain-text-editor](/wat_is_plain_text.md)
   * met behulp van leesbare letters brengen we een lichte vorm van formattering aan in een text.
   * je kan dat de geformatteerde tekst bekijken met een dedicated programma: een markdown-interpreter  
     * in github zit een ingebouwde markdown-interpreter: je ziet daar alle .md files met formattering

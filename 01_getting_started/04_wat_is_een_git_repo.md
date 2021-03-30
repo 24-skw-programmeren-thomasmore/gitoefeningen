@@ -1,7 +1,7 @@
 # Wat is een Git Repo? 
 
 Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [gitoefeningen](../README.md) op GitHub**. 
-* een git repo bevat gewoonlijk [plain text files](../allerlei/wat_is_md.md) (code is altijd plain text)
+* een git repo bevat gewoonlijk [plain text files](../999_allerlei/wat_is_md.md) (code is altijd plain text)
 * de files zijn gestructureerd in **directories** (folders)
 * je kan een file openklikken om de content te zien   
 * in Github wordt de file **[README.md](../README.md)** getoond als info voor deze repo
@@ -9,7 +9,7 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 * in Github  kan je gemakkelijk **zoeken** in alle files van een repo (Search of jump to...)
   
 ### history
-* je ziet de **[history](../getting_started/history.md)** van de repo in Github:
+* je ziet de **[history](../02_time_travel/01_history.md)** van de repo in Github:
 ![history_in_github.png](images/history_in_github.png)  
 
 
@@ -20,12 +20,12 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 
 
 ### Branches
-* je ziet ook verschillende **[branches](../getting_started/branches.md)** (bekijk dit pas als je de basis begrijpt)
+* je ziet ook verschillende **[branches](/branches.md)** (bekijk dit pas als je de basis begrijpt)
 ![branches_in_github.png](images/branches_in_github.png)  
 * Deze repo staat nu op GitHub. Straks zet je deze files ook op je eigen computer.
-* Maar eerst leren we nog een paar basis begrippen [next](../getting_started/05_git_init.md)   
+* Maar eerst leren we nog een paar basis begrippen [next](/05_git_init.md)   
 
 
 ---
-[prev](../getting_started/03_git_bash.md)
-[next](../getting_started/05_git_init.md)
+[prev](/03_git_bash.md)
+[next](/05_git_init.md)
