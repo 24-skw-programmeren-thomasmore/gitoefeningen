@@ -97,7 +97,7 @@ Als je dit in IntelliJ doet is het verschil tussen modified en staged niet duide
 * Maak een aanpassing in de tweede file en commit
 
 ---
-[prev](/04_wat_is_een_git_repo.md)
-[next](/07_gitignore.md)
+[prev](04_wat_is_een_git_repo.md)
+[next](07_gitignore.md)
 
 

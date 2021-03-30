@@ -33,5 +33,5 @@ git config --global user.email <jouw e-mailadres>
     ```git config –global -replace-all user.name "<new Name>"```
 
 ---
-[prev](/01_wat_is_git.md)
-[next](/03_git_bash.md)
+[prev](01_wat_is_git.md)
+[next](03_git_bash.md)

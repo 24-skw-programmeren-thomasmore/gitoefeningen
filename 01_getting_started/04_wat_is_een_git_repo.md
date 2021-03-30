@@ -20,12 +20,12 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 
 
 ### Branches
-* je ziet ook verschillende **[branches](/branches.md)** (bekijk dit pas als je de basis begrijpt)
+* je ziet ook verschillende **[branches](../04_branches/branches.md)** (bekijk dit pas als je de basis begrijpt)
 ![branches_in_github.png](images/branches_in_github.png)  
 * Deze repo staat nu op GitHub. Straks zet je deze files ook op je eigen computer.
-* Maar eerst leren we nog een paar basis begrippen [next](/05_git_init.md)   
+* Maar eerst leren we nog een paar basis begrippen [next](05_git_init.md)   
 
 
 ---
-[prev](/03_git_bash.md)
-[next](/05_git_init.md)
+[prev](03_git_bash.md)
+[next](05_git_init.md)
