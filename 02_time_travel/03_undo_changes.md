@@ -77,6 +77,10 @@
 * selecteer de vorige commit 
 * rechts-klik en kies "Reset Current Branch to here..."
 
+## Oefening
+* doe een aanpassing en rollback 
+* doe een aanpassing, commit en rollback 
+
 ---
 [prev](02_go_back_in_time.md)
 [next](../03_github/01_wat_is_github.md)

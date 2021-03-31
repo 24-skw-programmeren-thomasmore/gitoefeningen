@@ -11,7 +11,9 @@
 * zie https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks 
 
 ## Oefening
-* fork deze repo en experimenteer: pas de files aan, commit, push 
+* fork deze repo (gitoefeningen) op github
+* [clone](03_connect_with_existing_github_repo.md) de geforkte repo
+* experimenteer: pas de files aan, commit, push 
 
 
 ---

@@ -74,6 +74,14 @@ git checkout main
   * Git Bash: gebruik "git status" 
   * IntelliJ: rechts onderaan in de marge  
 
+## Oefening
+* doe een checkout van een commit 
+* bekijk de inhoud van de files 
+* doe een checkout van een andere commit 
+* bekijk de inhoud van de files
+* probeer een commit te doen -- dit faalt omdat je in detached head state zit
+* doe een checkout van je main branch (of master als dat je default branch is)
+* commit lukt nu terug 
 
 ---
 [prev](01_history.md)

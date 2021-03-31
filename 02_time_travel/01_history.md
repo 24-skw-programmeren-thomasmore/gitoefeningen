@@ -36,7 +36,7 @@
   ```
 
 * Noot: na een aantal commits wordt de log lang. Heel lang.
-  * Als de log langer is dan je bash‐window zal hetg stoppen en zie je een :
+  * Als de log langer is dan je bash‐window zal het stoppen en zie je een :
   * Nu kan je een <blank> tikken om verder te gaan en de rest an de log te zien
   * Of je kan een “q” tikken om te stoppen
   * Extra info: Git gebruikt het bash‐command “less” om de log te tonen. 
@@ -55,7 +55,15 @@
 * Als je aan de rechterkant op een file dubbel-klikt zie je de aanpassingen in deze file 
 * Als je meerdere commits aanklikt dan zie je de aanpassingen gedaan in al die commits 
 
+## Oefening 
+* bekijk de history van je project  
+* bekijk de verschillende commits 
+* wanneer en door wie is deze commit gedaan?
+* wat is de reden van deze commit?   
+* in welke branches zit deze commit?  
+* welke files zijn aangepast? 
+* wat waren de aanpassingen in deze files? 
 
 ---
-[prev](../01_getting_started/07_gitignore.md)
+[prev](../01_getting_started/08_gitignore.md)
 [next](02_go_back_in_time.md)

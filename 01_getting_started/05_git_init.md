@@ -102,13 +102,7 @@ repository zit.
   * ```git add *``` voegt alle files deze directory toe
   * ```git add .``` voegt alle files in deze repository toe (ook in subdirectories)  
 
-## Three States 
 
-![git_init_3_states.png](images/git_init_3_states.png)
-
-## De Git workflow 
-
-![git_init_workflow.png](images/git_init_workflow.png)
 
 ## Oefening 
 * Check telkens voor‐en‐na de situatie met “git status” en “git log”.

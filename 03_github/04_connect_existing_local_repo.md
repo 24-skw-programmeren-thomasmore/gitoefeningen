@@ -7,7 +7,7 @@
 * maak eerst een local repo van je project met "git init" 
   in [Git Bash](../01_getting_started/05_git_init.md) 
   of in [IntelliJ](../01_getting_started/06_git_init_met_intellij.md) 
-* check de [.gitignore file](../01_getting_started/07_gitignore.md) 
+* check de [.gitignore file](../01_getting_started/08_gitignore.md) 
 
 | check de .gitignore file voor je commit en pusht! | 
 |---|
@@ -26,7 +26,7 @@
 
 ## connecteer  
 * connecteer je local repo met de nieuwe repo op Github
-* check eerst de [.gitignore file](../01_getting_started/07_gitignore.md) op je local repo!
+* check eerst de [.gitignore file](../01_getting_started/08_gitignore.md) op je local repo!
 
 ### in Git Bash: 
 ```
@@ -47,7 +47,6 @@ git remote -v
 ## Oefening
 * maak een project op je computer en connecteer dit met een nieuwe repo op github 
 
-
 ---
-[prev](03_connect_with_existing_repo.md)
+[prev](03_connect_with_existing_github_repo.md)
 [next](05_push.md)

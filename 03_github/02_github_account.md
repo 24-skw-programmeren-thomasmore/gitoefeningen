@@ -9,4 +9,4 @@
 
 ---
 [prev](01_wat_is_github.md)
-[next](03_connect_with_existing_repo.md)
+[next](03_connect_with_existing_github_repo.md)

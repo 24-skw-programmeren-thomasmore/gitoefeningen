@@ -30,7 +30,9 @@ git push
 
 
 ## Oefening
-* op je eigen repo: pas een file aan, commit, push
+* op je eigen repo: [connecteer met github](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
+* pas een file aan, add, commit, push
+* check op github of je de files daar ziet 
 
 
 ---

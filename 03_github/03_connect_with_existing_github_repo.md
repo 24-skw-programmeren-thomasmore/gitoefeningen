@@ -60,7 +60,7 @@ computer gecopieerd. Check de inhoud van je lokale repository.
 
 ## Oefening
 * clone deze repository (gitoefeningen) 
-* bekijk de inhoud in je lokale repo (bvb in IntelliJ)
+* bekijk de inhoud in je **lokale** repo (bvb in IntelliJ)
 * bekijk de history en experimenteer met de commando's die we al geleerd hebben 
 * je kan committen! De commit blijft wel op je lokale repo (voorlopig). 
 
