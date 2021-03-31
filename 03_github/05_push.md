@@ -22,11 +22,11 @@ git push
 
 ## in IntelliJ:
 * gebruik het push symbool in de toolbar:
+  
   ![push.png](images/push.png)
 
 * of: Menu > Git > Push
 * Je ziet nu je files op je remote repo op Github
-
 
 
 ## Oefening

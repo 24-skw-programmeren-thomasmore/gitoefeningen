@@ -85,7 +85,7 @@ repository zit.
 * Maak een aanpassing in de tweede file en commit
 
 ---
-[prev](05_git_init.md)
+[prev](05_git_basis_met_git_bash.md)
 [next](07_three_states.md)
 
 

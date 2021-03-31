@@ -33,7 +33,7 @@
  git status
  ``` 
 
-* Noot: je kan hetzelfde ook doen met [IntelliJ](06_git_init_met_intellij.md)
+* Noot: je kan hetzelfde ook doen met [IntelliJ](06_git_basis_met_intellij.md)
 * We zorgen er nu voor dat we git kunnen gebruiken in deze directory.
 * met andere woorden: we maken van onze directory een **git repository** 
 * het git commando "**git status**" zegt je wat de status is van de repository
@@ -112,6 +112,6 @@ repository zit.
 
 ---
 [prev](04_wat_is_een_git_repo.md)
-[next](06_git_init_met_intellij.md)
+[next](06_git_basis_met_intellij.md)
 
 

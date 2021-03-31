@@ -28,9 +28,9 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 ![branches_in_github.png](images/branches_in_github.png)  
 
 * Deze repo staat nu op GitHub. [Straks](../03_github/03_connect_with_existing_github_repo.md) zet je deze files ook op je eigen computer.
-* Maar eerst leren we nog een paar basis begrippen [next](05_git_init.md)   
+* Maar eerst leren we nog een paar basis begrippen [next](05_git_basis_met_git_bash.md)   
 
 
 ---
 [prev](03_git_bash.md)
-[next](05_git_init.md)
+[next](05_git_basis_met_git_bash.md)

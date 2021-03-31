@@ -15,8 +15,8 @@
     * [Installeer Git](01_getting_started/02_installeer_git.md)
     * [Git Bash](01_getting_started/03_git_bash.md)
     * [Wat is een Git Repo?](01_getting_started/04_wat_is_een_git_repo.md)
-    * [Je eerste git repository](01_getting_started/05_git_init.md) (git init, status, add, commit)
-    * [Je eerste git repository met IntelliJ](01_getting_started/06_git_init_met_intellij.md)
+    * [Je eerste git repository](01_getting_started/05_git_basis_met_git_bash.md) -- de basis: git init, status, add, commit
+    * [Je eerste git repository met IntelliJ](01_getting_started/06_git_basis_met_intellij.md) -- de basis: git init, status, add, commit 
 * Time Travel
     * [History](02_time_travel/01_history.md) (git log)
     * [Go back in time](02_time_travel/02_go_back_in_time.md) (git checkout)

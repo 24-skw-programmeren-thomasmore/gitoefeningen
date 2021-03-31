@@ -5,8 +5,8 @@
 ## maak local repo
 
 * maak eerst een local repo van je project met "git init" 
-  in [Git Bash](../01_getting_started/05_git_init.md) 
-  of in [IntelliJ](../01_getting_started/06_git_init_met_intellij.md) 
+so  in [Git Bash](../01_getting_started/05_git_basis_met_git_bash.md) 
+  of in [IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) 
 * check de [.gitignore file](../01_getting_started/08_gitignore.md) 
 
 | check de .gitignore file voor je commit en pusht! | 

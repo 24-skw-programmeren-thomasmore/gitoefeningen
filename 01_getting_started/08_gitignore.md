@@ -42,6 +42,6 @@ Intellij werkt:
 
 
 ---
-[prev](06_git_init_met_intellij.md)
+[prev](06_git_basis_met_intellij.md)
 [next](../02_time_travel/01_history.md)
 

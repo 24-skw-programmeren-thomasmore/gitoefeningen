@@ -10,7 +10,7 @@
 
 
 ---
-[prev](06_git_init_met_intellij.md)
+[prev](06_git_basis_met_intellij.md)
 [next](08_gitignore.md)
 
 
