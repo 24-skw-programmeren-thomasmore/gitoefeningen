@@ -65,7 +65,7 @@ of the “next commit” is “already taken”).
 
 ## In IntelliJ: 
 * je ziet rechts onderaan welk het actieve viewpoint is. 
-* Als dit een **commit hash** is dan ben je in [DETACHED HEAD](Wat is HEAD?) state (en dus kan je niet committen) 
+* Als dit een **commit hash** is dan ben je in DETACHED HEAD state (en dus kan je niet committen) 
 * als dit een **branch** is (main of master of een andere branch) dan kan je wel committen 
 * noot: in de history lijst (Log tab in Git tool window onderaan) zie je ook welke commits in je actieve viewpoint zitten (die zijn blauw gekleurd)
 
