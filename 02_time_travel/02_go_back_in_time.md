@@ -65,30 +65,33 @@ of the “next commit” is “already taken”).
 
 ## In IntelliJ: 
 * je ziet rechts onderaan welk het actieve viewpoint is. 
-* Als dit een **commit hash** is dan ben je in [DETACHED HEAD](Wat is HEAD?) state 
-  * en dus kan je niet committen
-  * om hieruit te geraken: 
-    * selecteer de bovenste commit (of: de bovenste commit van een branch)
-    * rechts-klik en selecteer "checkout branch..."  
+* Als dit een **commit hash** is dan ben je in [DETACHED HEAD](Wat is HEAD?) state (en dus kan je niet committen) 
 * als dit een **branch** is (main of master of een andere branch) dan kan je wel committen 
-* om uit DETACHED   doet, dan gaat HEAD naar deze nieuwe commit (want dat is je nieuwe
-“point of view” na je commit).
-
+* noot: in de history lijst (Log tab in Git tool window onderaan) zie je ook welke commits in je actieve viewpoint zitten (die zijn blauw gekleurd)
 
 ## Hoe geraak je uit een detached head state? 
 * Doe een checkout van een branch (dus niet van een commit): bvb van de default branch main (of master)
+* HEAD zal dan opnieuw wijzen naar de laatste commit van deze branch. En dus kan je terug committen.
+
+![checkout_head_na_commit.png](images/checkout_head_na_commit.png)
+
+### in Git Bash:
 ```
 git checkout main
 ```
 
-* Als je dit doet dan zal HEAD terug naar de laatste commit van branch master wijzen. En kan je terug committen.
-  
-![checkout_head_na_commit.png](images/checkout_head_na_commit.png)
+* main is in dit geval de default branch:
+* Check altijd welke branch actief is met "git status"
 
 
-* Check altijd welke branch actief is  
-  * Git Bash: gebruik "git status" 
-  * IntelliJ: rechts onderaan in de marge  
+### in Intellij: 
+* Check altijd welke branch actief is rechts onderaan in de marge  
+* selecteer de bovenste commit
+* rechts-klik en selecteer "checkout branch..." (dus niet de commit-hash)
+* noot: de bovenste commit van een branch is voldoende - je ziet dan een branch-labeltje bij deze commit in de history lijst
+
+![checkout_branch_intellij.png](images/checkout_branch_intellij.png)
+
 
 ## Oefening
 * doe een checkout van een commit 
