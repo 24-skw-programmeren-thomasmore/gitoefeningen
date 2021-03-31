@@ -43,6 +43,11 @@ git remote -v
 ### in IntelliJ: 
 * Menu > VCS > Share Project on Github... 
 
+
+## Oefening
+* maak een project op je computer en connecteer dit met een nieuwe repo op github 
+
+
 ---
 [prev](03_connect_with_existing_repo.md)
 [next](05_push.md)
