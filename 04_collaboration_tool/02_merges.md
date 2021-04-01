@@ -32,7 +32,7 @@ Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
   * wil je jouw aanpassingen
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen  
-  * of moet je nog extra de code aanpassingen doen om dit te laten werken    
+  * of moet je nog extra code aanpassingen doen om dit te laten werken    
 
 
 ## Oefening 
