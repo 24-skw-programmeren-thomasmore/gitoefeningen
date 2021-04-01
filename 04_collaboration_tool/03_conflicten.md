@@ -12,7 +12,12 @@
   * pull 
   * merge van branches 
 
+
+## Hoe zie je dat er een conflict is? 
+
 ## Wat doe je bij een conflict 
+* Hier raad ik wel aan om IntelliJ te gebruiken, of een andere tool waarmee je visuele merges kan doen. 
+
 
 ## Hoe voorkom je conflict problemen 
 

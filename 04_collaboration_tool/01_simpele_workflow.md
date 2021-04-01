@@ -1,7 +1,7 @@
 # Simpele Workflow
 
 ## Clone
-* Iedereen in het team heeft een locale clone van de repo die op github staat 
+* Iedereen in het team heeft een locale [clone](../01_getting_started/06_git_basis_met_intellij.md) van de repo die op github staat 
 * Jullie hebben dus alemaal dezelfde code in je local repo
 * We zeggen dat iedereen "**in sync**" is met de Github repository 
 ![clone.png](images/clone.png)
