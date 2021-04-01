@@ -1,6 +1,6 @@
 # Conflicten
 
-## Wat is een conflict
+## Wat is een conflict?
 * Bij een merge van 2 versies krijg je een conflict als in de 2 versies een aanpassing gedaan is in dezelfde file en op dezelfde lijn. 
 * git kan dan niet zelf beslissen wat er moet gebeuren 
 * je moet zelf nakijken en **kiezen**:
