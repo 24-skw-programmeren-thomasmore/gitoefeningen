@@ -12,11 +12,11 @@
 
 ## Oefening
 * fork deze repo (gitoefeningen) op github
-* [clone](03_connect_with_existing_github_repo.md) de geforkte repo
-* experimenteer: pas de files aan, commit, push 
+* [clone](03_connect_with_existing_github_repo.md) de **geforkte repo**
+* experimenteer: pas de files aan, commit, **push** en bekijke het resultaat op je geforkte repo op Github 
 
 
 ---
 [prev](04_connect_existing_local_repo.md)
-[next](06_fork.md)
+[next](07_github_pages.md)
 

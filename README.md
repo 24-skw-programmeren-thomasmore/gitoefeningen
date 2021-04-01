@@ -30,7 +30,7 @@
     * [Fork](03_github/06_fork.md)
     * [Github pages](03_github/07_github_pages.md)
 * Collaboration Tool
-    *
+    * 
 * Branches
 
 ## Verder ook nog

@@ -12,7 +12,11 @@
 * Noot: als je in Github de index.html pagina opent in de Code tab dan zie je de code, niet de
 web‐pagina.
 
+## Oefening
+* Voeg een index.html toe aan je repo 
+* activeer github pages voor je repo
+* bekijk je website op github pages 
 
 ---
 [prev](04_connect_existing_local_repo.md)
-[next]()
+[next](../04_collaboration_tool/01_simpele_workflow.md)
