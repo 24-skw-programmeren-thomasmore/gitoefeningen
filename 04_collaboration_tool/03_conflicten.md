@@ -70,6 +70,17 @@
 
 * Test steeds of alles nog werkt na een merge 
 
+## Wat gebeurt er als het het conflict negeert 
+* Dan zie je deze popup:
+
+![img.png](images/ignore_conflict.png)
+
+* als je die ook negeert:
+
+![img.png](images/keep_ignoring_conflict.png)
+
+* Je kan nu niet meer committen tot je het conflict oplost!  
+
 
 ## Hoe voorkom je conflict problemen 
 ****
