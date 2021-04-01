@@ -16,7 +16,7 @@
 
 ## Hoe zie je dat er een conflict is? 
 * Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap: 
-![img.png](pull_with_conflict.png)
+![img.png](images/pull_with_conflict.png)
   
 ## Wat doe je bij een conflict 
 * Dit moet je doen voor elke file waarin een conflict zit. 
@@ -26,7 +26,7 @@
 * IntelliJ opent het **Merge venster**. 
 
 ## Wat zien we in het Merge venster?  
-![img.png](merge_window.png)
+![img.png](images/merge_window.png)
 * Links zie je je eigen versie
 * Rechts zie je de versie die je collega gepusht had
 * In het midden zie het resultaat
@@ -42,22 +42,22 @@
 * In het IntelliJ merge tool moet je voor allebei de versies (links en rechts) zeggen of je dit wil houden of niet  
 * In dit geval kies ik om ze allebei te houden
 * Ik kies eerst de linkse versie 
-![img.png](conflict_resolve_choose_left.png)
+![img.png](images/conflict_resolve_choose_left.png)
 
 
 * Deze change wordt dan toegepast in het middelste stuk (Result)
-![img.png](conflict_resolve_accept_left.png)
+![img.png](images/conflict_resolve_accept_left.png)
 
 
 * Ik kies dus ook de rechtse versie
-![img.png](conflict_resolve_choose_right.png)
+![img.png](images/conflict_resolve_choose_right.png)
 
 
 * Deze change wordt ook toegepast in het middelste stuk (Result)
-![img.png](conflict_resolve_accept_right.png)
+![img.png](images/conflict_resolve_accept_right.png)
   
 * If check nog even het resultaat: 
-![img.png](conflict_resolve_check_result.png)
+![img.png](images/conflict_resolve_check_result.png)
   
 
 * **Ik pas de tekst in het middelste venster nog aan tot ik het resultaat goed vind** 
@@ -66,7 +66,7 @@
 * In git log zie ik de nieuwe commit. De message is "Merge remote-tracking branch 'origin/main'"
 * Je ziet ook dat er vanaf mijn nieuwe commit nu 2 paden naar beneden lopen die de aparte gemergde commits bevatten 
 
-![img.png](conflict_log.png)
+![img.png](images/conflict_log.png)
 
 * Test steeds of alles nog werkt na een merge 
 
