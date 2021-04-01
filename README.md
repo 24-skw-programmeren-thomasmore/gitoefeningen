@@ -30,7 +30,10 @@
     * [Fork](03_github/06_fork.md)
     * [Github pages](03_github/07_github_pages.md)
 * Collaboration Tool
-    * 
+    * [Simpele workflow](04_collaboration_tool/01_simpele_workflow.md)
+    * [Merges](04_collaboration_tool/02_merges.md)
+    * [Conflicten](04_collaboration_tool/03_conflicten.md)
+    * [](04_collaboration_tool/)
 * Branches
 
 ## Verder ook nog
