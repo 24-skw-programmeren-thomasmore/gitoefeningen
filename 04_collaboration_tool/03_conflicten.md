@@ -13,7 +13,7 @@
 |---|
 
 ## Push often 
-* als je dikwijls pusht dan zijn de changed die pusht klein 
+* als je dikwijls pusht dan zijn de changes die je pusht klein 
 * als ze conflicten veroorzaken voor je collega's dan zijn die conflicten **klein** en **gemakkelijk** te fixen  
 
 | push often | 

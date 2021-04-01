@@ -3,7 +3,7 @@
 ## Wat is een merge? 
 * Wat gebeurt er bij een pull van een change?
   * noot: in je local repo is alles gecommit
-* In dat geval is er een **merge van de changes** 
+* Bij een pull is er een **merge van de changes**: jouw aanpassingen en de aanpassingen van je collega's komen samen.  
 * Git heeft goede merging capaciteiten. In de meeste gevallen lukt dit zonder problemen.
 * Maar minstens moet je na een merge steeds alles opnieuw testen!
 
@@ -12,14 +12,14 @@
 
 ## Changes in verschillende files: 
 * git zal de nieuwe versies van die files in je local repo pullen
-* hiervoor is geen extra commit nodig 
+* je ziet geen extra commit in de git log 
 
 ## Changes in dezelfde file op verschillende lijnen: 
 * bvb: lijnen toevoegen, lijnen deleten, lijnen aanpassen
 * de changes die de andere persoon gedaan heeft worden in jouw file toegepast.
 * zolang jouw changes en de andere changes op verschillende lijnen zijn is er geen probleem 
-* we zeggen dat deze file **gemerged** is: git heeft een extra aanpasssing gedaan in deze file 
-* git doet hier automatisch een commit voor dit soort merge. De message is iets als:
+* we zeggen dat deze ***file gemerged** is: **git heeft een extra aanpasssing gedaan in jouw file**, tussen jouw aanpassingen  
+* git doet automatisch een commit voor dit soort merge. De message is iets als:
 ```
 Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
 ```
@@ -27,8 +27,8 @@ Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
 
 ## Changes in dezelfde file op dezelfde lijnen:
 * in dit geval kan git zelf niet beslissen wat het resultaat moet zijn
-* we noemen dit een **conflict** 
-* je moet zelf nakijken op welke lijnen er een conflict is en voor elke lijn **kiezen**: 
+* we noemen dit een [**conflict**](03_conflicten.md) 
+* je moet zelf nakijken op welke lijnen er een conflict is en voor elke lijn **kiezen**:  
   * wil je jouw aanpassingen
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen  

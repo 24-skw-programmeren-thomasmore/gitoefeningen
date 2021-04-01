@@ -3,12 +3,12 @@
 ## Clone
 * Iedereen in het team heeft een locale clone van de repo die op github staat 
 * Jullie hebben dus alemaal dezelfde code in je local repo
-* We zeggen dat iedereen "in sync" is met de Github repository 
+* We zeggen dat iedereen "**in sync**" is met de Github repository 
 ![clone.png](images/clone.png)
 
 ## Local changes en commit
-* Als je code aanpast dan heb je “local changes” tegenover je lokale repository.
-* Als je commit worden de local changes toegevoegd aan je lokale repository.
+* Als je code aanpast dan heb je “local changes” tegenover je local repo.
+* Als je commit worden de local changes toegevoegd aan je local repo.
 * Hiervan is nog niets zichtbaar voor je collega’s.
 * Je kan wel zelf je lokale history (of logboek) zien (git log).
 
@@ -19,7 +19,7 @@
 kunnen zien.
 * Op Github zie je nu de nieuwe versie van je code, en ook al je individuele commits met hun
 commit‐messages.
-* Je collega’s hebben zien nog niks hiervan op hun eigen lokale repository, ze moeten naar de
+* Je collega’s zien nog niks hiervan op hun eigen local repo, ze moeten naar de
 Github website gaan om jouw aanpassingen te kunnen zien.
   
 ![push.png](images/push.png)
@@ -31,7 +31,7 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 
 ![pull.png](images/pull.png)
 
-## Pull on a clean directory!
+# Pull on a clean directory!
 
 | Pull on a clean directory! |
 |---|
@@ -42,12 +42,17 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 |Commit before you pull!|
 |---|
 
-## Pull before you push!  
+# Pull before you push!  
+
+* Waarom: je collega's hebben ook al aanpassingen gedaan... 
+
 |Pull before you push!|
 |---|
 
 
-* Luc heeft in zijn local repo al een paar commits gedaan. Deze code is getest. Luc wil zijn code pushen naar Github. 
+* Luc heeft in zijn local repo al een paar commits gedaan. 
+* Deze code is getest en ok. 
+* **Luc wil zijn code pushen naar Github.** 
 * Maar: Jan heeft al een paar commits gepusht.
 
 ![img.png](images/push_next_commit.png)
@@ -59,7 +64,8 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 ![img.png](images/push_commit_pull.png)
 
 * Luc test of deze gemergede versie van de code nog steeds werkt.
-* Dan doet Luc een push, zodat ook zijn aanpassingen zichtbaar zijn in Github.
+* Alles werkt nog 
+* Luc doet een push, zodat ook zijn aanpassingen zichtbaar zijn in Github.
 
 ![img.png](images/img.png)
 
@@ -67,16 +73,16 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 * Noot: Als je op school werkt met een **laptop** en thuis op een **desktop** dan kan je dit push en
 pull systeem ook gebruiken om de code tussen je laptop en je desktop te syncroniseren.
 
-## Waarom altijd een pull voor een push? 
-* De versie op de gemeenschappelijke repo moet altijd stabiel zijn (stable = geen errors).
-* Daarom is de eerste stap altijd: test lokaal of je eigen code aanpassingen correct zijn.
+## Samenvattin: Waarom altijd een pull voor een push? 
+* De versie op de **gemeenschappelijke repo** moet altijd **stabiel** zijn (stable = geen errors).
+* Daarom is de eerste stap altijd: **test** lokaal of je eigen code aanpassingen correct zijn.
 * Maar… het is altijd mogelijk dat jouw aanpassingen niet meer werken als ze samenkomen
 met de aanpassingen van je collega’s.
-* De afspraak is dat je altijd eerst een pull doet en test op je lokale machine of de
-geintegreerde versie werkt.
+* De afspraak is dat je altijd eerst een **pull** doet en **test** op je lokale machine of de
+gemergde versie werkt.
 * Als je code werkte voordat je de pull deed en het werkt niet meer na de pull... dan is het jouw
-verantwoordelijkheid om dat te fixen. 
-* Maar je kan zien wie de laatste push gedaan heeft en hem vragen om te helpen.
+verantwoordelijkheid om dat te **fixen**. 
+* Maar je kan zien wie de laatste push gedaan heeft en hem **vragen** om te **helpen**.
 * Noot: in ons geval is de gemeenschappelijke branch de default branch (main of master) – hierover later meer.
 
 
