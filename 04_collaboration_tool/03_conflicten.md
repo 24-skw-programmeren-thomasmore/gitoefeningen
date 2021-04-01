@@ -7,20 +7,72 @@
   * wil je jouw aanpassingen
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen
-  * of moet je nog extra code aanpassingen doen om dit te laten werken
+  ***** of moet je nog extra code aanpassingen doen om dit te laten werken
 * noot: merge van 2 versies kan zijn: 
   * pull 
   * merge van branches 
+* Voor wat volgt raad ik wel aan om IntelliJ te gebruiken, of een andere tool waarmee je visuele merges kan doen.
 
 
 ## Hoe zie je dat er een conflict is? 
-
+* Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap: 
+![img.png](pull_with_conflict.png)
+  
 ## Wat doe je bij een conflict 
-* Hier raad ik wel aan om IntelliJ te gebruiken, of een andere tool waarmee je visuele merges kan doen. 
+* Dit moet je doen voor elke file waarin een conflict zit. 
+* Kies zeker **Merge**! 
+* Als je "Accept Yours" kiest gooi je de changes die je collega gepushed heeft weg! 
+* Als je "Accept Theirs" kiest gooi je je eigen changes weg! 
+* IntelliJ opent het **Merge venster**. 
+
+## Wat zien we in het Merge venster?  
+![img.png](merge_window.png)
+* Links zie je je eigen versie
+* Rechts zie je de versie die je collega gepusht had
+* In het midden zie het resultaat
+* Een conflict wordt in het rood gemarkeerd
+* Een change die geen conflict is wordt in het groen gemarkeerd
+* Rechts bovenaan zie je dat er 1 conflict is in dit geval   
+* Je kan de up/down pijltjes links bovenaan gebruiken om naar de vorige/volgende change te gaan (als er meerdere changes zijn) 
+* Het is meestal wel een goed idee om "Apply non-conflicting changes te kiezen (All)" (als er ook non-conflicting changes zijn)
+
+## Wat doe je in het Merge venster? 
+* Ga naar het eerste conflict 
+* Je moet nu kiezen welke versie je wil houden: de linkse versie (jouw versie) of de rechtse versie (van je collega's) 
+* In het IntelliJ merge tool moet je voor allebei de versies (links en rechts) zeggen of je dit wil houden of niet  
+* In dit geval kies ik om ze allebei te houden
+* Ik kies eerst de linkse versie 
+![img.png](conflict_resolve_choose_left.png)
+
+
+* Deze change wordt dan toegepast in het middelste stuk (Result)
+![img.png](conflict_resolve_accept_left.png)
+
+
+* Ik kies dus ook de rechtse versie
+![img.png](conflict_resolve_choose_right.png)
+
+
+* Deze change wordt ook toegepast in het middelste stuk (Result)
+![img.png](conflict_resolve_accept_right.png)
+  
+* If check nog even het resultaat: 
+![img.png](conflict_resolve_check_result.png)
+  
+
+* **Ik pas de tekst in het middelste venster nog aan tot ik het resultaat goed vind** 
+* Dan duw ik op de **Apply** knop rechts onderaan 
+* IntelliJ zal onmiddellijk deze merge committen (als alle conflicten geresolved zijn)
+* In git log zie ik de nieuwe commit. De message is "Merge remote-tracking branch 'origin/main'"
+* Je ziet ook dat er vanaf mijn nieuwe commit nu 2 paden naar beneden lopen die de aparte gemergde commits bevatten 
+
+![img.png](conflict_log.png)
+
+* Test steeds of alles nog werkt na een merge 
 
 
 ## Hoe voorkom je conflict problemen 
-
+****
 ### Pull often
 * als je dikwijls pullt dan zijn de changes die je binnenkrijgt klein
 * er kunnen wel conflicten zijn, maar deze zullen ook **klein** zijn en dus **gemakkelijk** te fixen 
