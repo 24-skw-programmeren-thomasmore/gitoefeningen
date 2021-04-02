@@ -9,6 +9,7 @@
   * er is nog 1 branch **the_first_branch** 
   * noot: op het moment dat jij naar de repo kijkt zijn er wellicht al meer branches. Op het moment dat ik dit schrijf is er 1. 
 * Selecteer **in github** de branch **the_first_branch** 
+  * en ga naar deze pagina (05_branches/02_branches_voorbeelden.md)
 
 
 ---
