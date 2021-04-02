@@ -82,7 +82,7 @@
 
 ![img.png](images/keep_ignoring_conflict.png)
 
-* Je kan nu niet meer committen tot je het conflict oplost!  
+* Je kan nu niet meer committen of pullen tot je het conflict oplost!  
 
 ## Oefening 
 * spreek af met 1 of meer mensen uit je klas en clone dezelfde repo op github

@@ -51,7 +51,7 @@
 * Als je een commit aanklikt zie je aan de rechterkant: 
   * welke files zijn aangepast
   * commit message en andere info (wie/wanneer) 
-  * in welke [branches](../05_branches/branches.md) zit deze commit (later meer daarover)
+  * in welke [branches](../05_branches/01_branches.md) zit deze commit (later meer daarover)
 * Als je aan de rechterkant op een file dubbel-klikt zie je de aanpassingen in deze file 
 * Als je meerdere commits aanklikt dan zie je de aanpassingen gedaan in al die commits 
 

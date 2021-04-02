@@ -22,7 +22,7 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 
 
 ## Branches
-* je ziet ook verschillende **[branches](../05_branches/branches.md)** 
+* je ziet ook verschillende **[branches](../05_branches/01_branches.md)** 
 * noot: bekijk dit pas als je vlot kan werken met de basis begrippen (init, status, add, commit, push, clone) 
 
 ![branches_in_github.png](images/branches_in_github.png)  

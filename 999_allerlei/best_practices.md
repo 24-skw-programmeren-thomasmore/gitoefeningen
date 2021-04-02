@@ -12,3 +12,4 @@
 | Always test before a push | 
 | Always test after a merge | 
 | If it hurts, do it more often|
+| branch features, not persons |
