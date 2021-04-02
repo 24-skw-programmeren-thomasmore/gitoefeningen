@@ -9,4 +9,6 @@
 | Always pull before you push! |
 | Pull often |
 | Push often |
-| When you push, everything still has to work |
+| Always test before a push | 
+| Always test after a merge | 
+| If it hurts, do it more often|
