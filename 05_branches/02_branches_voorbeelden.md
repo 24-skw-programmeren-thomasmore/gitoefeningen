@@ -11,8 +11,14 @@
 * Selecteer **in github** de branch **the_first_branch** 
   * In de branch **the_first_branch** gaat deze uitleg verder 
   * Als je terug de **main** branch selecteert zie je deze uitleg niet meer
-*   
+  * deze uitleg is alleen gecommit in branch **the_first_branch**
+* Kijk in Github naar de History (git log)    
   
+  ![img.png](images/github_branch_history.png)
+  * Je ziet alleen de commits voor de geselecteerde branch 
+  * Ik heb hier links de history van de main branch geopend en rechts de history van the_first_branch
+  
+  ![img.png](images/github_branch_different_histories.png)
 
 ---
 [prev](01_branches.md)
