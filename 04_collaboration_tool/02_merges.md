@@ -33,7 +33,7 @@ Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen  
   * of moet je nog extra code aanpassingen doen om dit te laten werken    
-
+* Hierover meer in de [volgende sectie](03_conflicten.md)
 
 ## Oefening 
 * spreek af met 1 of meer mensen uit je klas en clone dezelfde repo op github

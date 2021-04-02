@@ -73,7 +73,7 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 * Noot: Als je op school werkt met een **laptop** en thuis op een **desktop** dan kan je dit push en
 pull systeem ook gebruiken om de code tussen je laptop en je desktop te syncroniseren.
 
-## Samenvattin: Waarom altijd een pull voor een push? 
+## Samenvatting: Waarom altijd een pull voor een push? 
 * De versie op de **gemeenschappelijke repo** moet altijd **stabiel** zijn (stable = geen errors).
 * Daarom is de eerste stap altijd: **test** lokaal of je eigen code aanpassingen correct zijn.
 * Maar… het is altijd mogelijk dat jouw aanpassingen niet meer werken als ze samenkomen

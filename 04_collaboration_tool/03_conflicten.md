@@ -7,7 +7,7 @@
   * wil je jouw aanpassingen
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen
-  ***** of moet je nog extra code aanpassingen doen om dit te laten werken
+  * of moet je nog extra code aanpassingen doen om dit te laten werken
 * noot: merge van 2 versies kan zijn: 
   * pull 
   * merge van branches 
@@ -17,30 +17,32 @@
 ## Hoe zie je dat er een conflict is? 
 * Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap: 
 ![img.png](images/pull_with_conflict.png)
-  
+* Noot: je kan ook een merge conflict krijgen als je een merge doet van 2 branches. Hierover later meer.  
+
 ## Wat doe je bij een conflict 
 * Dit moet je doen voor elke file waarin een conflict zit. 
-* Kies zeker **Merge**! 
-* Als je "Accept Yours" kiest gooi je de changes die je collega gepushed heeft weg! 
-* Als je "Accept Theirs" kiest gooi je je eigen changes weg! 
+* Kies zeker de optie **Merge**! 
+* Als je "Accept Yours" kiest gooi je de changes die je collega gepushed heeft weg! (is meestal niet wat je wil) 
+* Als je "Accept Theirs" kiest gooi je je eigen changes weg! (is meestal niet wat je wil)
 * IntelliJ opent het **Merge venster**. 
 
 ## Wat zien we in het Merge venster?  
 ![img.png](images/merge_window.png)
-* Links zie je je eigen versie
-* Rechts zie je de versie die je collega gepusht had
-* In het midden zie het resultaat
-* Een conflict wordt in het rood gemarkeerd
-* Een change die geen conflict is wordt in het groen gemarkeerd
-* Rechts bovenaan zie je dat er 1 conflict is in dit geval   
-* Je kan de up/down pijltjes links bovenaan gebruiken om naar de vorige/volgende change te gaan (als er meerdere changes zijn) 
-* Het is meestal wel een goed idee om "Apply non-conflicting changes te kiezen (All)" (als er ook non-conflicting changes zijn)
+* Links: je eigen versie
+* Rechts: de versie die je collega gepusht had
+* In het midden: het resultaat
+* Een conflict wordt in het rood gemarkeerd (hier op lijn 3) 
+* Een change die geen conflict is wordt in het groen gemarkeerd (zo is er geen in dit voorbeeld)
+* Rechts bovenaan zie je dat erin dit voorbeeld 1 conflict is    
+* Met de up/down pijltjes links bovenaan kan je naar de vorige/volgende change gaan (als er meerdere changes zijn) 
 
 ## Wat doe je in het Merge venster? 
+
+* Meestal is het een goed idee om te starten met "Apply non-conflicting changes te kiezen (All)" (als er ook non-conflicting changes zijn - groene changes dus)
 * Ga naar het eerste conflict 
 * Je moet nu kiezen welke versie je wil houden: de linkse versie (jouw versie) of de rechtse versie (van je collega's) 
-* In het IntelliJ merge tool moet je voor allebei de versies (links en rechts) zeggen of je dit wil houden of niet  
-* In dit geval kies ik om ze allebei te houden
+* In het IntelliJ merge tool moet je voor allebei de versies (links en rechts) aangeven of je dit wil houden of niet  
+* In dit voorbeeld kies ik om ze allebei te houden
 * Ik kies eerst de linkse versie 
 ![img.png](images/conflict_resolve_choose_left.png)
 
@@ -63,14 +65,14 @@
 * **Ik pas de tekst in het middelste venster nog aan tot ik het resultaat goed vind** 
 * Dan duw ik op de **Apply** knop rechts onderaan 
 * IntelliJ zal onmiddellijk deze merge committen (als alle conflicten geresolved zijn)
-* In git log zie ik de nieuwe commit. De message is "Merge remote-tracking branch 'origin/main'"
+* In git log zie ik de nieuwe commit. De commit-message is "Merge remote-tracking branch 'origin/main'"
 * Je ziet ook dat er vanaf mijn nieuwe commit nu 2 paden naar beneden lopen die de aparte gemergde commits bevatten 
 
 ![img.png](images/conflict_log.png)
 
-* Test steeds of alles nog werkt na een merge 
+* Belangrijk: Test steeds of alles nog werkt na een merge 
 
-## Wat gebeurt er als het het conflict negeert 
+## Wat gebeurt er als je het conflict negeert 
 * Dan zie je deze popup:
 
 ![img.png](images/ignore_conflict.png)
@@ -80,28 +82,6 @@
 ![img.png](images/keep_ignoring_conflict.png)
 
 * Je kan nu niet meer committen tot je het conflict oplost!  
-
-
-## Hoe voorkom je conflict problemen 
-****
-### Pull often
-* als je dikwijls pullt dan zijn de changes die je binnenkrijgt klein
-* er kunnen wel conflicten zijn, maar deze zullen ook **klein** zijn en dus **gemakkelijk** te fixen 
-* de changes die je pullt zijn nog "**vers**" en degene die deze change gedaan heeft zal nog weten wat/waarom/hoe
-
-| pull often | 
-|---|
-
-## Push often 
-* als je dikwijls pusht dan zijn de changes die je pusht klein 
-* als ze conflicten veroorzaken voor je collega's dan zijn die conflicten **klein** en **gemakkelijk** te fixen  
-
-| push often | 
-|---|
-
-## Test before you push 
-* leer in kleine stappen te werken! 
-* test! 
 
 ## Oefening 
 * spreek af met 1 of meer mensen uit je klas en clone dezelfde repo op github
@@ -121,6 +101,6 @@
 * pull en push werkt dan op dezelfde manier als in een team 
 
 ---
-[prev](01_simpele_workflow.md)
-[next]()
+[prev](02_merges.md)
+[next](04_conflicten_best_practices.md)
 
