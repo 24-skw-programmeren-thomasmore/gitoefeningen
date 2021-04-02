@@ -33,7 +33,7 @@
     * [Simpele workflow](04_collaboration_tool/01_simpele_workflow.md)
     * [Merges](04_collaboration_tool/02_merges.md)
     * [Conflicten](04_collaboration_tool/03_conflicten.md)
-    * [](04_collaboration_tool/)
+    * [Hoe voorkom je conflict problemen?](04_collaboration_tool/04_conflicten_best_practices.md)
 * Branches
 
 ## Verder ook nog

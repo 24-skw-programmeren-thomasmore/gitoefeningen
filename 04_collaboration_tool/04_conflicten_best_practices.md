@@ -27,6 +27,18 @@
 
 | Always test after a merge | 
 | ---| 
+* and before a merge
+* and before a commit 
+
+
+## Do it more often
+| If it hurts, do it more often|
+|---|
+* Kent Beck ([Extreme Programming Explained](https://www.agilealliance.org/glossary/xp))
+
+## Oefening
+* Ik voorzie nog meer oefeningen op mergen na het hoofdstuk branches
+
 
 
 ---

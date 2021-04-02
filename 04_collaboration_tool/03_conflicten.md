@@ -8,23 +8,24 @@
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen
   * of moet je nog extra code aanpassingen doen om dit te laten werken
-* noot: merge van 2 versies kan zijn: 
-  * pull 
-  * merge van branches 
 * Voor wat volgt raad ik wel aan om IntelliJ te gebruiken, of een andere tool waarmee je visuele merges kan doen.
 
 
 ## Hoe zie je dat er een conflict is? 
-* Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap: 
+* Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap:
 ![img.png](images/pull_with_conflict.png)
+* We hebben hier 1 file met een conflict: 03_conflicten.md
 * Noot: je kan ook een merge conflict krijgen als je een merge doet van 2 branches. Hierover later meer.  
+* Dus je kan een merge van 2 versies hebben omwille van: 
+  * pull
+  * merge van branches
 
 ## Wat doe je bij een conflict 
-* Dit moet je doen voor elke file waarin een conflict zit. 
 * Kies zeker de optie **Merge**! 
 * Als je "Accept Yours" kiest gooi je de changes die je collega gepushed heeft weg! (is meestal niet wat je wil) 
 * Als je "Accept Theirs" kiest gooi je je eigen changes weg! (is meestal niet wat je wil)
 * IntelliJ opent het **Merge venster**. 
+* Noot: Je moet de conflicten oplossen voor elke file waarin een conflict zit.
 
 ## Wat zien we in het Merge venster?  
 ![img.png](images/merge_window.png)
@@ -32,7 +33,7 @@
 * Rechts: de versie die je collega gepusht had
 * In het midden: het resultaat
 * Een conflict wordt in het rood gemarkeerd (hier op lijn 3) 
-* Een change die geen conflict is wordt in het groen gemarkeerd (zo is er geen in dit voorbeeld)
+* Een change die geen conflict is wordt in het groen gemarkeerd (zo is er geen in dit voorbeeld). Die kan Git zelf oplossen. 
 * Rechts bovenaan zie je dat erin dit voorbeeld 1 conflict is    
 * Met de up/down pijltjes links bovenaan kan je naar de vorige/volgende change gaan (als er meerdere changes zijn) 
 
