@@ -35,6 +35,9 @@
     * [Conflicten](04_collaboration_tool/03_conflicten.md)
     * [Hoe voorkom je conflict problemen?](04_collaboration_tool/04_conflicten_best_practices.md)
 * Branches
+    * [Branches](05_branches/01_branches.md) 
+    * [Branches Voorbeelden](05_branches/02_branches_voorbeelden.md)
+  
 
 ## Verder ook nog
 

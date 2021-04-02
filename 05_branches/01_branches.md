@@ -44,5 +44,5 @@
 
 ---
 [prev](../04_collaboration_tool/04_conflicten_best_practices.md)
-[next]()
+[next](02_branches_voorbeelden.md)
 
