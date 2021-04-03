@@ -38,6 +38,7 @@
 * Branches
     * [Branches](05_branches/01_branches.md) 
     * [Branches Voorbeelden](05_branches/02_branches_voorbeelden.md)
+    * [Branches in local repo](05_branches/03_branches_local_repo.md)
   
 
 ## Verder ook nog
