@@ -51,5 +51,5 @@
 
 ---
 [prev](05_simple_merge.md)
-[next]()
+[next](07_pull_before_push.md)
 
