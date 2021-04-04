@@ -22,7 +22,13 @@
 * check in Git Log (history) waar het labeltje van de nieuwe branch staat 
 * check of de nieuwe branch actief is 
 
-### Andere manieren 
+### Commit en Push op nieuwe branch  
+* Maak de nieuwe branch actief (checkout) zodat je commits op deze nieuwe branch terechtkomen
+* Een push zal de commits van de **actieve branch** naar Github sturen (remote repo)    
+* IntelliJ zorgt ervoor dat de **juiste opties** voor push gezet worden: de branch wordt gepusht naar een remote branch met dezelfde naam 
+* Als de branch nog niet bestaat in de remote repo dan maakt git die aan 
+
+### Andere manieren on branch aan te maken in IntelliJ  
 
 * andere manieren zonder bijwerkingen:
   * Menu > Git > New Branch...
@@ -39,8 +45,6 @@
     * rechtsklik, selecteer "New Branch..."
     * **Let op**: de nieuwe branch wordt gecreeerd vanaf deze commit 
     * als je workspace dirty is zal IntelliJ klagen dat hij geen checkout kan doen
-* Als je commit dan komen de commits op deze nieuwe branch 
-* Als je deze commits pusht dan maakt IntelliJ automatisch een remote branch met dezelfde naam (als je geen andere opties kiest) 
 
 ## In Git Bash:
 ```
@@ -52,20 +56,22 @@ git checkout <NAAM VAN DE NIEUWE BRANCH>
 git branch -b <NAAM VAN DE NIEUWE BRANCH>
 ```
 * Let op: de eerste keer dat je een nieuwe branch pusht moet je zeggen met **welke remote branch** je deze branch wil connecteren. 
-* Normaal gezien gebruik je dezelfde naam voor local en remote branch 
+* Normaal gezien gebruik je dezelfde naam voor local en remote branch
+* Als de branch nog niet bestaat in de remote repo dan maakt git die aan
+
 ```
 git push -u origin <NAAM VAN DE NIEUWE BRANCH>
 ``` 
 * hier staat: ik push de current branch naar de remote repo "origin" en de naam van deze branch op de remote repo is \<NAAM VAN DE NIEUWE BRANCH>    
-
+* dit moet je maar 1 keer doen. 
 
 ## Oefening
 * activeer (checkout) branch the_first_branch
 * maak een nieuwe branch my_own_branch en checkout  
-* push 
-* maak een nieuwe file en zet er een lijn tekst in      
+* push (zodat een lege nieuwe branch aangemaakt wordt in de remote repo)
+* maak een nieuwe file en zet er een lijn tekst in (best geen bestaande file editeren omdat we conflicten nog willen vermijden op dit moment)      
 * commit en push
-* bekijk de history  (log) in IntelliJ en in GitHub 
+* bekijk de history (log) in IntelliJ en in GitHub 
 
 ---
 [prev](03_branches_local_repo.md)
