@@ -68,12 +68,23 @@ git push -u origin <NAAM VAN DE NIEUWE BRANCH>
 * dit moet je maar 1 keer doen. 
 
 ## Oefening
-* activeer (checkout) branch the_first_branch
-* maak een nieuwe branch my_own_branch en doe een checkout van de nieuwe branch   
-* push (zodat een lege nieuwe branch aangemaakt wordt in de remote repo)
-* maak een nieuwe file en zet er een lijn tekst in (best geen bestaande file editeren omdat we conflicten nog willen vermijden op dit moment)      
-* commit en push
-* bekijk de history (log) in IntelliJ en in GitHub 
+* my_own_branch
+  * activeer (checkout) branch the_first_branch
+  * maak een nieuwe branch my_own_branch en doe een checkout van de nieuwe branch   
+  * push (zodat een lege nieuwe branch aangemaakt wordt in de remote repo)
+  * maak een nieuwe file en zet er een lijn tekst in (best geen bestaande file editeren omdat we conflicten nog willen vermijden op dit moment)      
+  * commit en push
+  * bekijk de history (log) in IntelliJ en in GitHub 
+* another_branch 
+  * activeer opnieuw (checkout) branch the_first_branch
+  * maak een nieuwe branch another_branch en doe een checkout van de nieuwe branch
+  * push (zodat een lege nieuwe branch aangemaakt wordt in de remote repo)
+  * maak een nieuwe file en zet er een lijn tekst in (best geen bestaande file editeren omdat we conflicten nog willen vermijden op dit moment)
+  * commit en push
+  * bekijk de history (log) in IntelliJ en in GitHub
+
+
+![img.png](images/new_branches.png)
 
 ---
 [prev](03_branches_local_repo.md)
