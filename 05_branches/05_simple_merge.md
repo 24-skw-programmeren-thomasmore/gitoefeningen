@@ -73,6 +73,6 @@ git merge <another_branch>
 
 
 ---
-[prev](03_branches_local_repo.md)
-[next]()
+[prev](04_create_branch.md)
+[next](06_merge_with_conflicts.md)
 
