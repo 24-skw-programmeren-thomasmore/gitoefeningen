@@ -16,9 +16,10 @@
   * **let op**: soms doet IntelliJ eerst een checkout en dan een create branch
 * dit werkt altijd:    
   * **Menu > Git > New Branch...**
-* automatische checkout van nieuwe branch 
+  * zonder bijwerkingen (branch wordt gemaakt waar HEAD nu staat)
+* Noot: automatische checkout van nieuwe branch 
   * je hebt in IntelliJ altijd de optie om onmiddellijk een checkout te doen van de nieuwe branch
-  * default (in Git Bash) is dat een extra stap
+  * als je "plain git" gebruikt (bvb in Git Bash) is dat een extra stap
 * check in Git Log (history) waar het labeltje van de nieuwe branch staat 
 * check of de nieuwe branch actief is 
 
@@ -26,6 +27,7 @@
 * Maak de nieuwe branch actief (checkout) zodat je commits op deze nieuwe branch terechtkomen
 * Een push zal de commits van de **actieve branch** naar Github sturen (remote repo)    
 * IntelliJ zorgt ervoor dat de **juiste opties** voor push gezet worden: de branch wordt gepusht naar een remote branch met dezelfde naam 
+* als je "plain git" gebruikt (bvb in Git Bash) moet je dit expliciet installen (met de optie -u)
 * Als de branch nog niet bestaat in de remote repo dan maakt git die aan 
 
 ### Andere manieren on branch aan te maken in IntelliJ  
@@ -43,8 +45,8 @@
   * via een Commit:
     * selecteer in het Git Log window een commit 
     * rechtsklik, selecteer "New Branch..."
-    * **Let op**: de nieuwe branch wordt gecreeerd vanaf deze commit 
-    * als je workspace dirty is zal IntelliJ klagen dat hij geen checkout kan doen
+    * als deze commit niet HEAD is, dan zal IntelliJ eerst een checkout doen van deze commit. Als je workspace dirty is zal IntelliJ klagen dat hij geen checkout kan doen.  
+    * **Let op**: de nieuwe branch wordt gecreeerd vanaf deze commit. Dit kan ook als deze commit niet de top van een branch is. 
 
 ## In Git Bash:
 ```
@@ -67,7 +69,7 @@ git push -u origin <NAAM VAN DE NIEUWE BRANCH>
 
 ## Oefening
 * activeer (checkout) branch the_first_branch
-* maak een nieuwe branch my_own_branch en checkout  
+* maak een nieuwe branch my_own_branch en doe een checkout van de nieuwe branch   
 * push (zodat een lege nieuwe branch aangemaakt wordt in de remote repo)
 * maak een nieuwe file en zet er een lijn tekst in (best geen bestaande file editeren omdat we conflicten nog willen vermijden op dit moment)      
 * commit en push
