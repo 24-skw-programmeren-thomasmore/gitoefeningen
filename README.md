@@ -39,6 +39,10 @@
     * [Branches](05_branches/01_branches.md) 
     * [Branches Voorbeelden](05_branches/02_branches_voorbeelden.md)
     * [Branches in local repo](05_branches/03_branches_local_repo.md)
+    * [Maak een branch](05_branches/04_create_branch.md)
+    * [Simpele merge](05_branches/05_simple_merge.md)
+    * [Merge met conflicten](05_branches/06_merge_with_conflicts.md)
+    * [Pull before Push](05_branches/07_pull_before_push.md)
   
 
 ## Verder ook nog
