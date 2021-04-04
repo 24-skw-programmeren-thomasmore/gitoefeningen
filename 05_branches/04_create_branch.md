@@ -88,4 +88,4 @@ git push -u origin <NAAM VAN DE NIEUWE BRANCH>
 
 ---
 [prev](03_branches_local_repo.md)
-[next](04_simple_merge.md)
+[next](05_simple_merge.md)
