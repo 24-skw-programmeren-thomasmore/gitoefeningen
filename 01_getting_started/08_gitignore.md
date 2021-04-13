@@ -6,9 +6,14 @@
 
 * Sommige files mogen nooit gecommit worden!
 * Namelijk files die altijd automatisch aangepast worden 
-  * bvb: IDE config - die verandert als je look&feel of een setting aanpast in je IDE
-  * bvb: files die gebuild worden vanuit de code - verandert altijd als je iets in je code aanpast
-  * bvb: files die je programma aanmaakt - verandert altijd als je programma start
+  * bvb: IDE config - die verandert als je look&feel of een setting aanpast in je IDE (.idea folder, *.iml files)
+  * bvb: files die gegenereerd worden vanuit de code - dit verandert altijd als je iets in je code aanpast 
+  * bvb: files die gebuild worden vanuit de code - dit verandert altijd als je iets in je code aanpast (build folder, target folder)
+  * bvb: files die je programma aanmaakt - verandert altijd als je programma start (log files, reports)
+  
+| zet alleen zelf-geschreven code in git - al de rest in .gitignore |
+|---|
+
 * Waarom is dit?
   * Deze files veranderen elke keer als je je project build/runt. Of elke keer als
 je collega het project build/runt. Als je deze files toevoegt in git dan zal iedereen ze elke keer
@@ -20,8 +25,8 @@ committen.
   * voor verschillende programmeertalen kan je .gitignore files downloaden (of laten genereren door github)  
   * Add en commit de .gitignore file in je repository
 * Example gitignore files: https://github.com/github/gitignore
-* Bvb een typische .gitignore file voor een java project voor een developer die met Jetbrains
-Intellij werkt:
+* Bvb een typische .gitignore file voor een **java** project voor een developer die met Jetbrains
+**Intellij** werkt:
     ```
     .idea
     *.iml 
