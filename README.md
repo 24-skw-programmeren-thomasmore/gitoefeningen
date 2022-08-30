@@ -29,6 +29,7 @@
     * [Push](03_github/05_push.md)
     * [Fork](03_github/06_fork.md)
     * [Github pages](03_github/07_github_pages.md)
+    * [Clone en disconnect](03_github/08_clone_and_disconnect.md)
 * Collaboration Tool
     * [Simpele workflow](04_collaboration_tool/01_simpele_workflow.md)
     * [Merges](04_collaboration_tool/02_merges.md)
