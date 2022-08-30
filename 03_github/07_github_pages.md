@@ -18,5 +18,5 @@ web‐pagina.
 * bekijk je website op github pages 
 
 ---
-[prev](04_connect_existing_local_repo.md)
-[next](../04_collaboration_tool/01_simpele_workflow.md)
+[prev](06_fork.md)
+[next](08_clone_and_disconnect.md)

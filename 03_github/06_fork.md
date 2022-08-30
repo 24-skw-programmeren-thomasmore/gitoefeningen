@@ -17,6 +17,6 @@
 
 
 ---
-[prev](04_connect_existing_local_repo.md)
+[prev](05_push.md)
 [next](07_github_pages.md)
 
