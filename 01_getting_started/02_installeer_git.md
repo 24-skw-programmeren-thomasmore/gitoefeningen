@@ -29,14 +29,21 @@
 ```
 git config --global user.name "<jouw naam>"
 git config --global user.email <jouw e-mailadres>
+git config --global init.defaultbranch main
 ```
-* user.name is de naam die je zal zien als je code commit.
-* noot: Values met een spatie of een ander special character zet je altijd tussen dubbele quotes
-* Check dit:
-    ```git config –global -l```
-* Als je iets fout gezet hebt:
-    ```git config –global -replace-all user.name "<new Name>"```
-* **Let op**: als je op meerdere computers werkt let er dan op dat je dezelfde naam en email gebruikt op de verschillende computers.    
+Wat is dit? 
+* **user.name** (en user.email) 
+  * is de naam die je zal zien als je code commit.
+  * **Let op**: als je op meerdere computers werkt let er dan op dat je dezelfde naam en email gebruikt op de verschillende computers.
+* **init.defaultbranch** 
+  * vroeger was naam van de default branch altijd master. Een paar jaar geleden is dit een verboden woord geworden en sindsdien beveelt git aan om dit woord niet meer te gebruiken. De nieuwe conventie is om als default naam "main" te gebruiken. 
+* noot: values met een spatie of een ander special character zet je altijd tussen dubbele quotes
+* check dit:
+  ```git config –global -l```
+* als je iets fout gezet hebt:
+  ```git config –global -replace-all user.name "<new Name>"```
+
+
 
 ---
 [prev](01_wat_is_git.md)
