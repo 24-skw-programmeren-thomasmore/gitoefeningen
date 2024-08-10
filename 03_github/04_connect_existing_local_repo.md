@@ -5,8 +5,8 @@
 ## maak local repo
 
 * maak eerst een local repo van je project met "git init" 
-so  in [Git Bash](../01_getting_started/05_git_basis_met_git_bash.md) 
-  of in [IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) 
+  * in [Git Bash](../01_getting_started/05_git_basis_met_git_bash.md) 
+  * of in [IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) 
 * check de [.gitignore file](../01_getting_started/08_gitignore.md) 
 
 | check de .gitignore file voor je commit en pusht! | 
@@ -19,9 +19,10 @@ so  in [Git Bash](../01_getting_started/05_git_basis_met_git_bash.md)
 * Ga naar Repositories
 * Klik de New button
 * Geef een repository name en description
-* public or private ‐> kies best private
+* public or private ‐> kies altijd **private**
+* Noot: maak er een gewoonte van om private repo's te maken! In een bedrijf wordt het niet geapprecieerd als je per ongeluk code vrijgeeft voor de hele wereld! 
 * je wil **geen** .ignore file en **geen** readme.md file
-* Noot: als de repo op Github al files bevat kan het moeilijker zijn om die te connecteren met je bestaande local repo    
+* Noot: als de repo op Github al files bevat is het moeilijker om die te connecteren met je bestaande local repo    
 * Klik de “Create repository” button
 
 ## connecteer  
