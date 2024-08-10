@@ -17,6 +17,6 @@
 
 
 ---
-[prev](05_push.md)
+[prev](05_push_and_pull)
 [next](07_github_pages.md)
 

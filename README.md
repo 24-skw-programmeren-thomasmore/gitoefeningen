@@ -26,7 +26,7 @@
     * [Github Account](03_github/02_github_account.md)
     * [Connecteer met bestaande repo op Github](03_github/03_connect_with_existing_github_repo.md)
     * [Bestaand locaal project op Github zetten](03_github/04_connect_existing_local_repo.md)
-    * [Push](03_github/05_push.md)
+    * [Push](03_github/05_push_and_pull)
     * [Fork](03_github/06_fork.md)
     * [Github pages](03_github/07_github_pages.md)
     * [Clone en disconnect](03_github/08_clone_and_disconnect.md)

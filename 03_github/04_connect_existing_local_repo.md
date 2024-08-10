@@ -50,4 +50,4 @@ git remote -v
 
 ---
 [prev](03_connect_with_existing_github_repo.md)
-[next](05_push.md)
+[next](05_push_and_pull)
