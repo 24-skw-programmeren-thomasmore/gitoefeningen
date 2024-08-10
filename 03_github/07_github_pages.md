@@ -7,7 +7,6 @@
   * noot: gebruik hier de default branch in je repo (kan ook master zijn)   
 * Je ziet dan je website hier:
    * https://<USERNAME>.github.io/<REPONAME>/
-* bvb voor een van mijn repo's: https://verapeeters‐thomasmore.github.io/projectwerk/
 * Wat gebeurt er: de **index.html file** in de root van het project wordt ge‐served in de github pages.
 * Noot: als je in Github de index.html pagina opent in de Code tab dan zie je de code, niet de
 web‐pagina.
