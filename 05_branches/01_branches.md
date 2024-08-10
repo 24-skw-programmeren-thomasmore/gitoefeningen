@@ -43,6 +43,6 @@
 
 
 ---
-[prev](../04_collaboration_tool/04_conflicten_best_practices.md)
+[prev](../04_collaboration_tool/05_share_code_between_2_computers.md)
 [next](02_branches_voorbeelden.md)
 
