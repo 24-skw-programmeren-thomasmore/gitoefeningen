@@ -7,6 +7,9 @@
     
 * waarom dos: 
   * alleen op windows pc (dos command window)
+  * hoe: **open een cmd**: 
+    * <WINDOWS>-toets, typ: "cmd" en enter. Een cmd wordt geopend op de default folder (je home folder).
+    * Ofwel: in de file explorer, ga naar een folder, klik dan op de adres-bar. Het path van de folder wordt geselecteerd. Negeer dit. Typ gewoon "cmd" en enter. Een cmd wordt geopend op deze folder.   
     
 
 | Linux	| Cmd	|  |
