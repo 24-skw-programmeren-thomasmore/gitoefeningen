@@ -7,16 +7,16 @@
 | --- |
 
 
-* We leren de basis van GIT aan met CLI
+* We leren de **basis** van GIT eerst aan met CLI
   * Gebruik CLI … tot je begrijpt wat je doet…
-  * Later kan je GUI gebruiken
+  * Later kan je GUI gebruiken - geen nodd, we zullen al heel snel met IntelliJ beginnen werken 
 
 * Open nu Git Bash.
   * Tip: als je in de File Explorer rechts‐klikt kan je Git Bash openen in deze
 directory
   * Dit is een linux‐achtige CLI. De meeste Linux command’s hebben een
     tegenhanger in een gewone cmd‐dox‐box. Een paar nuttige commando’s vind
-    je in de appendix achteraan in dit document.
+    je in de [appendix](../999_allerlei/linux_en_dos_commandos.md) achteraan in dit document.
   * je kan de  git-commando's ook uitvoeren in het Terminal tool-window in IntelliJ of in een dos-cmd-box.    
 * Mac user kunnen gewoon een Term gebruiken ipv Git Bash     
 
