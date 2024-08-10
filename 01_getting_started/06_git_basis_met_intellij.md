@@ -5,6 +5,7 @@
 * open een project in IntelliJ  
 * als git nog niet geinitialiseerd is op deze directory dan zie je in IntelliJ in de menu niet "Git" maar wel "VCS". 
   En in de toolbar zie je dan geen git symbolen.
+* Noot: VCS betekent "Version Control System"
 
 Dit project is nog niet geinitialiseerd voor git: 
 ![git_init_intellij_not_a_repo.png](images/git_init_intellij_not_a_repo.png)
@@ -18,32 +19,33 @@ Als je deze directory bekijkt in de file explorer dan zie je dat er geen .git su
 * met andere woorden: we maken van onze directory een **git repository**
 * IntelliJ > menubar > VCS > Create Git repository > Kies de directory van dit project in IntelliJ 
 
-![git_init_intellij.png](images/git_init_intellij.png)
+![img.png](images/git_init_intellij.png)
 
 
 IntelliJ ziet dat je project nu geinitialiseerd is voor git. 
 Dit verandert wel veel voor je project in de user interface van IntelliJ: 
-![git_init_intellij_result.png](images/git_init_intellij_result.png)
+![img.png](images/git_init_intellij_result.png)
 
-* Je ziet rechts onderaan dat de “**branch main**” actief is. In het eerste deel van deze bundel werken we met 1 branch
-(main). Hierover later meer.
-* noot: in sommige versies van git is de default branch master ipv main
+* Je ziet in het menu bovenaan dat de “**branch main**” actief is. In het eerste deel van deze bundel werken we met 1 branch
+(main of master). Hierover later meer.
+* noot: je default branch heet normaal gezien main als je de configuratie goed gedaan hebt na de [installatie van git](02_installeer_git.md)   
 * In het "Git Tool Window" onderaan zie je: “No changes committed.”: dit betekent dat we nog geen commits gedaan hebben.
 * We noemen je directory de “**working directory**”.
 * Een **commit** is een **snapshot** van de working directory: daar zit alle info in waarmee je terug kan gaan naar de situatie op het moment van de commit. 
 
-| je hebt nu een lokale repository | 
-|---| 
+| je hebt nu een lokale git repository | 
+|--------------------------------------| 
 
 ## .gitignore file 
-* Als je met intelliJ werkt moet je asap een [.gitignore](08_gitignore.md) file toevoegen aan je project.
+* Als je met IntelliJ werkt moet je asap een [.gitignore](08_gitignore.md) file toevoegen aan je project.
 * Maak in de root van je project een nieuwe file met naam .gitignore. 
 * Git komt vragen of je deze file wil toevoegen in git, dat is OK. 
-* Open deze file en voeg deze 2 lijnen toe:
+* Open deze file en voeg zeker deze 2 lijnen toe:
 ```
   .idea
   *.iml
 ```
+* Voor sommige soorten projecten voorziet IntelliJ zelf al een .gitignore file. Je moet wel altijd nog deze 2 lijnen toevoegen. 
 * Dit is nodig omdat we de IntelliJ configuratie zeker niet in git willen toevoegen
 
 ## Commits toevoegen aan je lokale repository 
@@ -54,13 +56,12 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
   * **untracked**: niet gekend door git
 * Maak een nieuwe file in je project. 
   Dit is eerst een untracked file. 
-  Als Git komt vragen of je de files ook aan git wil toevoegen en je zegt OK dan wordt  deze file onmiddellijk getracked.   
-* IntelliJ toont untracked files in het rood en changed files in het groen.
+  Als Git komt vragen of je de files ook aan git wil toevoegen en je zegt OK dan wordt deze file onmiddellijk getracked.   
+* IntelliJ toont untracked files in het rood en new added files in het groen.
 
   ![git_init_intellij_tracked_untracked.png](images/git_init_intellij_tracked_untracked.png)
 
-
-* Open het Commit window (rechter marge)
+* Open het Commit window (commit-knopje in de linker marge - of <CTRL>-k)
   
   ![git_init_intellij_commit.png](images/git_init_intellij_commit.png)
 
