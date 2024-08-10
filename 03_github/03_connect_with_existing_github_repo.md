@@ -3,11 +3,13 @@
 * Hoe krijg je een repo die op github staat op je eigen computer? 
     * Optie 1: download als zip
         * dat gaan we **niet** doen
+        * **Doe dit nooit!** 
         * je verliest dan alle meta-data (extra informatie over het project zoals de history)
+        * **Doe dit nooit!**
     * Optie 2: met **git clone**
-        * je maakt dan een lokale git repo die verbonden blijft met de repo op github
-        * de repo op github is de **remote repository**
-        * de repo op je eigen computer is de **local repository**
+      * je maakt dan een lokale git repo die verbonden blijft met de repo op github
+      * de repo op github is de **remote repository**
+      * de repo op je eigen computer is de **local repository**
 * wat is git clone? 
     * dit commando maakt een lokale git repo die verbonden blijft met de repo op github
     * alle meta-data van de repo (zoals de history) blijft behouden in de lokale repo.   
@@ -42,10 +44,13 @@ computer gecopieerd. Check de inhoud van je lokale repository.
 
 
 ### in IntelliJ:  
-* Menu > Git > Clone... 
-  * Geef de url van de github repo en de directory waar je dit project wil hebben 
- of als IntelliJ geopend is in een project die niet in git zit:
-    * Menu > VCS >  Get From Version Control...
+* Manier 1: 
+  * Menu > Git > Clone... 
+* Manier 2:
+  * Menu > File > New > Project from Version Control >  Get From Version Control...
+* Geef telkens mee:  
+  * de url van de github repo 
+  * en de directory waar je dit project wil hebben
 
 
 ## check de geconnecteerde remote  
